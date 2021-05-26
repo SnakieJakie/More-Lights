@@ -1,2 +1,2 @@
 # More-Lights
-More Lights is an mod for GZDoom, LZDoom, and Zandronum that adds Dynamic Lighting for flats. 
+More Lights is an mod for GZDoom, LZDoom, and Zandronum that adds Dynamic Lighting to flats. 
