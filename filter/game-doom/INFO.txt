@@ -1,0 +1,1 @@
+This filter is just here for compatibility sake, nothing to see here.

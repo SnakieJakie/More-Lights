@@ -1,0 +1,28 @@
+// I'm sorry Scuba :(((
+
+// Yeah, didn't think this through that much, this lump is pretty much pointless since you can barely even see the glowing flats. So, support for AD2 is pretty much on hold for the time being. 
+//===============
+// Action Doom 2: Unban Brawl Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   F_SKY1
+   FWATER
+   FWATER1
+   FWATER2
+   FWATER3
+   FWATER4
+   CLOUDS2
+   CLOUDFLR
+   
+// Dead of Winter
+   SNOW
+   SNOW1
+   SNOW2
+   SNOW3
+   
+  }
+}
