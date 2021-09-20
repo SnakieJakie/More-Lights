@@ -1,0 +1,29 @@
+
+// (More Lights made by Jakie)
+//===============
+// Chex Quest Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   LABFLAT
+   NUKAGE1
+   NUKAGE2
+   NUKAGE3
+   FWATER1
+   FWATER2
+   FWATER3
+   FWATER4
+   LAVA1
+   LAVA2
+   LAVA3
+   LAVA4
+   BLOOD1
+   BLOOD2
+   BLOOD3
+   BLOOD4
+   CJFFLEM1
+  }
+}
