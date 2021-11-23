@@ -1,3 +1,3 @@
 # More Lights 
 
-More Lights is a mod for hardware accelerated ports of GZDoom that adds more dynamic lighting effects to the Doom engine games.
+Mod for hardware accelerated ports of ZDoom that adds and changes certain lighting effects.
