@@ -1,0 +1,832 @@
+// Snap Dynamic lights
+// (More Lights made by Jakie)
+// Basic Gun
+
+pointlight SNAP_ROCKET
+{
+    color 1.0 0.7 0.0
+    size 45
+	attenuate 1
+}
+
+flickerlight SNAP_ROCKET_X1
+{
+    color 1.0 0.7 0.5
+    size 50
+    secondarySize 108
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_ROCKET_X2
+{
+    color 0.5 0.3 0.2
+    size 60
+    secondarySize 132
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_ROCKET_X3
+{
+    color 0.3 0.1 0.1
+    size 60
+    secondarySize 156
+    chance 0.3
+	attenuate 1
+}
+
+object SnapBasicShot
+{
+    frame BULLA { light SNAP_ROCKET    }
+
+    frame BULLB { light SNAP_ROCKET_X1 }
+    frame BULLC { light SNAP_ROCKET_X2 }
+    frame BULLD { light SNAP_ROCKET_X3 }
+	frame BULLE { light SNAP_ROCKET_X3 }
+	frame BULLF { light SNAP_ROCKET_X3 }
+}
+
+object SnapBasicBigShot
+{
+    frame LSTBA { light SNAP_ROCKET    }
+
+    frame LSTBB { light SNAP_ROCKET_X1 }
+    frame LSTBC { light SNAP_ROCKET_X2 }
+    frame LSTBD { light SNAP_ROCKET_X3 }
+}
+
+object SnapRapidShot
+{
+    frame RBULA { light SNAP_ROCKET    }
+
+    frame RBULB { light SNAP_ROCKET_X1 }
+    frame RBULC { light SNAP_ROCKET_X2 }
+    frame RBULD { light SNAP_ROCKET_X3 }
+}
+
+object SnapFlameShot
+{
+    frame FBALA { light SNAP_ROCKET    }
+
+    frame FBALB { light SNAP_ROCKET_X1 }
+    frame FBALC { light SNAP_ROCKET_X2 }
+    frame FBALD { light SNAP_ROCKET_X3 }
+}
+
+
+
+
+// SPREAD!!!!!!!!!!
+pointlight SNAP_BFGBALL
+{
+    color 0.0 1.0 0.0
+    size 80
+}
+
+flickerlight SNAP_BFGBALL_X1
+{
+    color 0.2 1.0 0.2
+    size 80
+    secondarySize 88
+    chance 0.3
+}
+
+flickerlight SNAP_BFGBALL_X2
+{
+    color 0.3 1.0 0.3
+    size 104
+    secondarySize 112
+    chance 0.3
+}
+
+flickerlight SNAP_BFGBALL_X3
+{
+    color 0.5 1.0 0.5
+    size 120
+    secondarySize 128
+    chance 0.3
+}
+
+flickerlight SNAP_BFGBALL_X4
+{
+    color 0.2 0.7 0.2
+    size 56
+    secondarySize 64
+    chance 0.3
+}
+
+flickerlight SNAP_BFGBALL_X5
+{
+    color 0.1 0.3 0.1
+    size 48
+    secondarySize 56
+    chance 0.3
+}
+
+object SnapSpreadShot
+{
+    frame SBULA { light SNAP_BFGBALL    }
+
+    frame SBULB { light SNAP_BFGBALL_X4 }
+    frame SBULC { light SNAP_BFGBALL_X4 }
+    frame SBULD { light SNAP_BFGBALL_X4}
+	frame SBULE { light SNAP_BFGBALL_X4}
+	frame SBULF { light SNAP_BFGBALL_X4}
+	
+	frame SBULG { light SNAP_BFGBALL    }
+
+    frame SBULH { light SNAP_BFGBALL_X1 }
+    frame SBULJ { light SNAP_BFGBALL_X2 }
+    frame SBULL { light SNAP_BFGBALL_X3}
+	frame SBULM { light SNAP_BFGBALL_X4}
+	frame SBULN { light SNAP_BFGBALL_X5}
+	
+	frame SBULO { light SNAP_BFGBALL_X4}
+	frame SBULP { light SNAP_BFGBALL_X5}
+}
+
+// Homing Shot
+
+
+pointlight SNAP_PLASMABALL
+{
+    color 0.0 0.1 1.0
+    size 56
+}
+
+flickerlight SNAP_PLASMA_X1
+{
+    color 0.2 0.2 1.0
+    size 64
+    secondarySize 72
+    chance 0.4
+}
+
+flickerlight SNAP_PLASMA_X2
+{
+    color 0.2 0.2 0.8
+    size 80
+    secondarySize 88
+    chance 0.4
+}
+
+flickerlight SNAP_PLASMA_X3
+{
+    color 0.1 0.1 0.5
+    size 64
+    secondarySize 72
+    chance 0.4
+}
+
+flickerlight SNAP_PLASMA_X4
+{
+    color 0.0 0.0 0.2
+    size 8
+    secondarySize 16
+    chance 0.4
+}
+
+object SnapHomingShot
+{
+    frame HBULA { light SNAP_PLASMABALL    }
+
+    frame HBULB { light SNAP_PLASMA_X1 }
+    frame HBULC { light SNAP_PLASMA_X2 }
+    frame HBULD { light SNAP_PLASMA_X3 }
+	frame HBULE { light SNAP_PLASMA_X3 }
+	frame HBULF { light SNAP_PLASMA_X3 }
+	frame HBULG { light SNAP_PLASMA_X1 }
+    frame HBULH { light SNAP_PLASMA_X2 }
+    frame HBULI { light SNAP_PLASMA_X3 }
+	frame HBULJ { light SNAP_PLASMA_X3 }
+	frame HBULK { light SNAP_PLASMA_X3 }
+	frame HBULL { light SNAP_PLASMA_X3 }
+	frame HBULM { light SNAP_PLASMA_X3 }
+	frame HBULN { light SNAP_PLASMA_X3 }
+}
+
+// AHH IT BURNS!!!
+
+object SnapFlameShot
+{
+    frame REXPA { light SNAP_ROCKET }
+    frame REXPB { light SNAP_ROCKET }
+    frame REXPC { light SNAP_ROCKET }
+
+    frame REXPD { light SNAP_ROCKET_X1  }
+    frame REXPG { light SNAP_ROCKET_X4  }
+    frame REXPH { light SNAP_ROCKET_X5  }
+	frame REXPI { light SNAP_ROCKET_X5  }
+	frame REXPJ { light SNAP_ROCKET_X5  }
+	frame REXPL { light SNAP_ROCKET_X5  }
+}
+
+// boooooooooom
+
+pointlight SNAP_PURPLE
+{
+	color 0.8 0.5 1.0
+	size 85
+	attenuate 1
+}
+
+flickerlight SNAP_PURPLE_X1
+{
+	color 0.8 0.5 1.0
+	size 96
+	secondarySize 108
+	chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_PURPLE_X2
+{
+	color 0.4 0.25 0.5
+	size 120
+	secondarySize 132
+	chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_PURPLE_X3
+{
+	color 0.24 0.15 0.3
+	size 144
+	secondarySize 156
+	chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_PURPLE_SMOL
+{
+	color 0.24 0.15 0.3
+	size 20
+	secondarySize 156
+	chance 0.3
+	attenuate 1
+}
+
+object SnapExplodeShot
+{
+ 	frame EBULA { Light SNAP_PURPLE	}
+	frame EBULB { Light SNAP_PURPLE_X1 }
+	frame EBULC { Light SNAP_PURPLE_X1 }
+	frame EBULD { Light SNAP_PURPLE_X2 }
+	frame EBULE { Light SNAP_PURPLE_SMOL }
+	frame EBULG { Light SNAP_PURPLE_SMOL }
+}
+
+
+object BombDowngradeParticle
+{
+ 	frame BOMDA { Light SNAP_PURPLE_SMOL	}
+	frame BOMDB { Light SNAP_PURPLE_SMOL }
+	frame BOMDC { Light SNAP_PURPLE_SMOL }
+	frame BOMDD { Light SNAP_PURPLE_SMOL }
+ 	frame BOMDE { Light SNAP_PURPLE_SMOL	}
+	frame BOMDF { Light SNAP_PURPLE_SMOL }
+	frame BOMDG { Light SNAP_PURPLE_SMOL }
+	frame BOMDH { Light SNAP_PURPLE_SMOL }
+	frame BOMDI { Light SNAP_PURPLE_SMOL }
+	frame BOMDJ { Light SNAP_PURPLE_SMOL }
+}
+
+
+// SnapMirrorShot
+object SnapMirrorShot
+{
+ 	frame MBULA { Light SNAP_PURPLE	}
+	frame MBULB { Light SNAP_PURPLE_X1 }
+	}
+	
+// Hi BB-1, thought I would add a reference to you since you're nice, plus you play New Super Lucky's tale :)
+
+pointlight SNAP_BBCHARGE_WIMP
+{
+	color 0.8 1.0 1.0
+	size 40
+	attenuate 1
+}
+
+
+pointlight SNAP_BBCHARGE_X1
+{
+	color 0.0 1.0 1.0	
+	size 85
+	attenuate 1
+}
+
+pointlight SNAP_BBCHARGE_X2
+{
+	color 0.0 1.0 1.0	
+	size 126
+	attenuate 1
+}
+
+pointlight SNAP_BBCHARGE_X3
+{
+	color 0.0 1.0 1.0	
+	size 450
+	attenuate 1
+}
+
+object SnapChargeShotWimp
+{
+ 	frame CRGBA { Light SNAP_BBCHARGE_WIMP	}
+	frame CRGBB { Light SNAP_BBCHARGE_WIMP }
+
+	}
+
+object SnapChargeShotGood
+{
+
+	frame CRGBC { Light SNAP_BBCHARGE_X1	}
+	frame CRGBD { Light SNAP_BBCHARGE_X1 }
+
+	frame CRGBF { Light SNAP_BBCHARGE_X1	}
+	frame CRGBE { Light SNAP_BBCHARGE_X1 }
+
+	}
+
+object SnapChargeShotTrailGood
+{
+
+	frame CRGBC { Light SNAP_BBCHARGE_X1	}
+	frame CRGBD { Light SNAP_BBCHARGE_X1 }
+
+	frame CRGBF { Light SNAP_BBCHARGE_X1	}
+	frame CRGBE { Light SNAP_BBCHARGE_X1 }
+
+	}
+
+object SnapChargeShotGreat
+{
+
+	frame CRGBG { Light SNAP_BBCHARGE_X2	}
+	frame CRGBH { Light SNAP_BBCHARGE_X2 }
+
+	frame CRGBJ { Light SNAP_BBCHARGE_X2	}
+
+	}
+
+object SnapChargeShotTrailGreat
+{
+
+	frame CRGBG { Light SNAP_BBCHARGE_X2	}
+	frame CRGBH { Light SNAP_BBCHARGE_X2 }
+
+	frame CRGBJ { Light SNAP_BBCHARGE_X2	}
+
+	}
+
+
+object SnapChargeShotPerfect
+{
+
+	frame CRGBK { Light SNAP_BBCHARGE_X3	}
+	frame CRGBL { Light SNAP_BBCHARGE_X3 }
+
+	frame CRGBO { Light SNAP_BBCHARGE_X3	}
+	frame CRGBM { Light SNAP_BBCHARGE_X3 }
+	frame CRGBN { Light SNAP_BBCHARGE_X3	}
+	frame CRGBP { Light SNAP_BBCHARGE_X3 }
+
+	}
+
+object SnapChargeShotTrailPerfect
+{
+
+	frame CRGBK { Light SNAP_BBCHARGE_X3	}
+	frame CRGBL { Light SNAP_BBCHARGE_X3 }
+
+	frame CRGBO { Light SNAP_BBCHARGE_X3	}
+	frame CRGBM { Light SNAP_BBCHARGE_X3 }
+	frame CRGBN { Light SNAP_BBCHARGE_X3	}
+	frame CRGBP { Light SNAP_BBCHARGE_X3 }
+
+	}
+
+
+// Bad Guys
+
+
+
+
+
+
+
+
+
+
+
+
+object SnapMonsterExplode
+{
+    frame REXPA { light SNAP_ROCKET }
+    frame REXPB { light SNAP_ROCKET }
+    frame REXPC { light SNAP_ROCKET }
+
+    frame REXPD { light SNAP_ROCKET_X1  }
+    frame REXPG { light SNAP_ROCKET_X4  }
+    frame REXPH { light SNAP_ROCKET_X5  }
+	frame REXPI { light SNAP_ROCKET_X5  }
+	frame REXPJ { light SNAP_ROCKET_X5  }
+	frame REXPL { light SNAP_ROCKET_X5  }
+}
+object SnapMonsterExplodeSmall
+{
+    frame REXPA { light SNAP_ROCKET }
+    frame REXPB { light SNAP_ROCKET }
+    frame REXPC { light SNAP_ROCKET }
+
+    frame REXPD { light SNAP_ROCKET_X1  }
+    frame REXPG { light SNAP_ROCKET_X4  }
+    frame REXPH { light SNAP_ROCKET_X5  }
+	frame REXPI { light SNAP_ROCKET_X5  }
+	frame REXPJ { light SNAP_ROCKET_X5  }
+	frame REXPL { light SNAP_ROCKET_X5  }
+}
+object SnapDamageExplode
+{
+    frame REXPA { light SNAP_ROCKET }
+    frame REXPB { light SNAP_ROCKET }
+    frame REXPC { light SNAP_ROCKET }
+
+    frame REXPD { light SNAP_ROCKET_X1  }
+    frame REXPG { light SNAP_ROCKET_X4  }
+    frame REXPH { light SNAP_ROCKET_X5  }
+	frame REXPI { light SNAP_ROCKET_X5  }
+	frame REXPJ { light SNAP_ROCKET_X5  }
+	frame REXPL { light SNAP_ROCKET_X5  }
+}
+
+object SnapMonsterShrapnel
+{
+    frame REXPA { light SNAP_ROCKET }
+    frame REXPB { light SNAP_ROCKET }
+    frame REXPC { light SNAP_ROCKET }
+
+    frame REXPD { light SNAP_ROCKET_X1  }
+    frame REXPG { light SNAP_ROCKET_X4  }
+    frame REXPH { light SNAP_ROCKET_X5  }
+	frame REXPI { light SNAP_ROCKET_X5  }
+	frame REXPJ { light SNAP_ROCKET_X5  }
+	frame REXPL { light SNAP_ROCKET_X5  }
+}
+
+object SnapMonsterShrapnelSpawner
+{
+    frame REXPA { light SNAP_ROCKET }
+    frame REXPB { light SNAP_ROCKET }
+    frame REXPC { light SNAP_ROCKET }
+
+    frame REXPD { light SNAP_ROCKET_X1  }
+    frame REXPG { light SNAP_ROCKET_X4  }
+    frame REXPH { light SNAP_ROCKET_X5  }
+	frame REXPI { light SNAP_ROCKET_X5  }
+	frame REXPJ { light SNAP_ROCKET_X5  }
+	frame REXPL { light SNAP_ROCKET_X5  }
+}
+
+object SnapDamageShrapnelSpawner
+{
+    frame REXPA { light SNAP_ROCKET }
+    frame REXPB { light SNAP_ROCKET }
+    frame REXPC { light SNAP_ROCKET }
+
+    frame REXPD { light SNAP_ROCKET_X1  }
+    frame REXPG { light SNAP_ROCKET_X4  }
+    frame REXPH { light SNAP_ROCKET_X5  }
+	frame REXPI { light SNAP_ROCKET_X5  }
+	frame REXPJ { light SNAP_ROCKET_X5  }
+	frame REXPL { light SNAP_ROCKET_X5  }
+}
+
+pointlight SNAP_HELLSTAFFBALL
+{
+    color 1.0 0.5 0.5
+    size 84
+	attenuate 1
+}
+
+flickerlight SNAP_HELLSTAFFBALL_X1
+{
+    color 1.0 0.7 0.7
+    size 84
+    secondarySize 96
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_HELLSTAFFBALL_X2
+{
+    color 0.8 0.5 0.5
+    size 96
+    secondarySize 108
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_HELLSTAFFBALL_X3
+{
+    color 0.6 0.3 0.3
+    size 120
+    secondarySize 130
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_HELLSTAFFBALL_X4
+{
+    color 0.4 0.2 0.2
+    size 132
+    secondarySize 144
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight SNAP_HELLSTAFFBALL_X5
+{
+    color 0.2 0.1 0.1
+    size 144
+    secondarySize 156
+    chance 0.3
+	attenuate 1
+}
+
+object SnapTurretShot
+{
+    frame TBULA { light SNAP_HELLSTAFFBALL }
+    frame TBULB { light SNAP_HELLSTAFFBALL }
+	frame TBULC { light SNAP_HELLSTAFFBALL }
+
+    frame TBULH { light SNAP_HELLSTAFFBALL_X1 }
+    frame TBULI { light SNAP_HELLSTAFFBALL_X2 }
+    frame TBULJ { light SNAP_HELLSTAFFBALL_X3 }
+    frame TBULK { light SNAP_HELLSTAFFBALL_X4 }
+    frame TBULL { light SNAP_HELLSTAFFBALL_X5 }
+}
+
+object GuardRoboBullet
+{
+    frame BULLA { light SNAP_ROCKET    }
+
+    frame BULLB { light SNAP_ROCKET_X1 }
+    frame BULLC { light SNAP_ROCKET_X2 }
+    frame BULLD { light SNAP_ROCKET_X3 }
+	frame BULLE { light SNAP_ROCKET_X3 }
+	frame BULLF { light SNAP_ROCKET_X3 }
+}
+
+object MineSnail
+{
+	frame MSNLE { light SNAP_ROCKET_X3 }
+}
+
+object CybrassShot
+{
+    frame CBSHA { light SNAP_HELLSTAFFBALL }
+    frame CBSHB { light SNAP_HELLSTAFFBALL }
+	frame CBSHC { light SNAP_HELLSTAFFBALL }
+	frame CBSHD { light SNAP_HELLSTAFFBALL }
+	frame CBSHE { light SNAP_HELLSTAFFBALL }
+	frame CBSHF { light SNAP_HELLSTAFFBALL }
+
+    frame CBSHH { light SNAP_HELLSTAFFBALL_X1 }
+    frame CBSHI { light SNAP_HELLSTAFFBALL_X2 }
+    frame CBSHJ { light SNAP_HELLSTAFFBALL_X3 }
+    frame CBSHK { light SNAP_HELLSTAFFBALL_X4 }
+    frame CBSHL { light SNAP_HELLSTAFFBALL_X5 }
+    frame CBSHM { light SNAP_HELLSTAFFBALL_X4 }
+    frame CBSHN { light SNAP_HELLSTAFFBALL_X5 }
+}
+
+object ArsonTopFireball
+{
+    frame DEXPA { light SNAP_PLASMABALL    }
+
+    frame DEXPB { light SNAP_PLASMA_X1 }
+    frame DEXPC { light SNAP_PLASMA_X2 }
+    frame DEXPD { light SNAP_PLASMA_X3 }
+	frame DEXPE { light SNAP_PLASMA_X3 }
+	frame DEXPF { light SNAP_PLASMA_X3 }
+	frame DEXPG { light SNAP_PLASMA_X1 }
+}
+
+object ArsonTopFlame
+{
+    frame DEXPA { light SNAP_PLASMABALL    }
+
+    frame DEXPB { light SNAP_PLASMA_X1 }
+    frame DEXPC { light SNAP_PLASMA_X2 }
+    frame DEXPD { light SNAP_PLASMA_X3 }
+	frame DEXPE { light SNAP_PLASMA_X3 }
+	frame DEXPF { light SNAP_PLASMA_X3 }
+	frame DEXPG { light SNAP_PLASMA_X1 }
+}
+
+object SnapMonsterExplodeSmall
+{
+    frame DEXPA { light SNAP_PLASMABALL }
+    frame DEXPB { light SNAP_PLASMABALL }
+    frame DEXPC { light SNAP_PLASMABALL }
+
+    frame DEXPD { light SNAP_PLASMABALL_X1  }
+    frame DEXPG { light SNAP_PLASMABALL_X4  }
+    frame DEXPH { light SNAP_PLASMABALL_X5  }
+	frame DEXPI { light SNAP_PLASMABALL_X5  }
+	frame DEXPJ { light SNAP_PLASMABALL_X5  }
+	frame DEXPL { light SNAP_PLASMABALL_X5  }
+}
+object SnapDamageExplode
+{
+    frame DEXPA { light SNAP_PLASMABALL }
+    frame DEXPB { light SNAP_PLASMABALL }
+    frame DEXPC { light SNAP_PLASMABALL }
+
+    frame DEXPD { light SNAP_PLASMABALL_X1  }
+    frame DEXPG { light SNAP_PLASMABALL_X4  }
+    frame DEXPH { light SNAP_PLASMABALL_X5  }
+	frame DEXPI { light SNAP_PLASMABALL_X5  }
+	frame DEXPJ { light SNAP_PLASMABALL_X5  }
+	frame DEXPL { light SNAP_PLASMABALL_X5  }
+}
+
+object SnapDamageExplodeSmall
+{
+    frame DEXPA { light SNAP_PLASMABALL }
+    frame DEXPB { light SNAP_PLASMABALL }
+    frame DEXPC { light SNAP_PLASMABALL }
+
+    frame DEXPD { light SNAP_PLASMABALL_X1  }
+    frame DEXPG { light SNAP_PLASMABALL_X4  }
+    frame DEXPH { light SNAP_PLASMABALL_X5  }
+	frame DEXPI { light SNAP_PLASMABALL_X5  }
+	frame DEXPJ { light SNAP_PLASMABALL_X5  }
+	frame DEXPL { light SNAP_PLASMABALL_X5  }
+}
+
+object SnapDamageShrapnel
+{
+    frame DEXPA { light SNAP_PLASMABALL }
+    frame DEXPB { light SNAP_PLASMABALL }
+    frame DEXPC { light SNAP_PLASMABALL }
+
+    frame DEXPD { light SNAP_PLASMABALL_X1  }
+    frame DEXPG { light SNAP_PLASMABALL_X4  }
+    frame DEXPH { light SNAP_PLASMABALL_X5  }
+	frame DEXPI { light SNAP_PLASMABALL_X5  }
+	frame DEXPJ { light SNAP_PLASMABALL_X5  }
+	frame DEXPL { light SNAP_PLASMABALL_X5  }
+}
+
+object SnapDamageExplode
+{
+    frame DEXPA { light SNAP_PLASMABALL }
+    frame DEXPB { light SNAP_PLASMABALL }
+    frame DEXPC { light SNAP_PLASMABALL }
+
+    frame DEXPD { light SNAP_PLASMABALL_X1  }
+    frame DEXPG { light SNAP_PLASMABALL_X4  }
+    frame DEXPH { light SNAP_PLASMABALL_X5  }
+	frame DEXPI { light SNAP_PLASMABALL_X5  }
+	frame DEXPJ { light SNAP_PLASMABALL_X5  }
+	frame DEXPL { light SNAP_PLASMABALL_X5  }
+}
+
+
+
+
+// Fuck this guy
+
+object TerajoltLaser
+{
+    frame LASRA { light SNAP_PLASMABALL    }
+
+    frame LASRB { light SNAP_PLASMA_X1 }
+    frame LASRC { light SNAP_PLASMA_X2 }
+    frame LASRD { light SNAP_PLASMA_X3 }
+	frame LASRE { light SNAP_PLASMA_X3 }
+	frame LASRF { light SNAP_PLASMA_X3 }
+	frame LASRG { light SNAP_PLASMA_X1 }
+	frame LASRH { light SNAP_PLASMA_X3 }
+	frame LASRI { light SNAP_PLASMA_X3 }
+}
+
+object TerajoltLaser
+{
+    frame LASRA { light SNAP_PLASMABALL    }
+
+    frame LASRB { light SNAP_PLASMA_X1 }
+    frame LASRC { light SNAP_PLASMA_X2 }
+    frame LASRD { light SNAP_PLASMA_X3 }
+	frame LASRE { light SNAP_PLASMA_X3 }
+	frame LASRF { light SNAP_PLASMA_X3 }
+	frame LASRG { light SNAP_PLASMA_X1 }
+	frame LASRH { light SNAP_PLASMA_X3 }
+	frame LASRI { light SNAP_PLASMA_X3 }
+}
+
+object OceanBullet
+{
+    frame BULLA { light SNAP_ROCKET    }
+
+    frame BULLB { light SNAP_ROCKET_X1 }
+    frame BULLC { light SNAP_ROCKET_X2 }
+    frame BULLD { light SNAP_ROCKET_X3 }
+	frame BULLE { light SNAP_ROCKET_X3 }
+	frame BULLF { light SNAP_ROCKET_X3 }
+}
+
+object OceanLaser
+{
+    frame LASRA { light SNAP_PLASMABALL    }
+
+    frame LASRB { light SNAP_PLASMA_X1 }
+    frame LASRC { light SNAP_PLASMA_X2 }
+    frame LASRD { light SNAP_PLASMA_X3 }
+	frame LASRE { light SNAP_PLASMA_X3 }
+	frame LASRF { light SNAP_PLASMA_X3 }
+	frame LASRG { light SNAP_PLASMA_X1 }
+	frame LASRH { light SNAP_PLASMA_X3 }
+	frame LASRI { light SNAP_PLASMA_X3 }
+}
+
+object HyperHoming
+{
+ 	frame HHOMA { Light SNAP_PURPLE	}
+	frame HHOMB { Light SNAP_PURPLE_X1 }
+	frame HHOMC { Light SNAP_PURPLE_X1 }
+	frame HHOMD { Light SNAP_PURPLE_X2 }
+	frame HHOMF { Light SNAP_PURPLE_X2 }
+	frame HHOME { Light SNAP_PURPLE_X2 }
+}
+
+
+// V2.0 Stuff
+
+object MosquitoZap
+{
+ 	frame MSBLA { Light SNAP_ROCKET_X1	}
+	frame MSBLB { Light SNAP_ROCKET_X2 }
+	frame MSBLC { Light SNAP_ROCKET_X3 }
+	frame MSBLD { Light SNAP_ROCKET_X4 }
+}
+
+object MosquitoZapTrail2
+{
+ 	frame MSBLE { Light SNAP_ROCKET_X1	}
+	frame MSBLF { Light SNAP_ROCKET_X2 }
+	frame MSBLG { Light SNAP_ROCKET_X3 }
+	frame MSBLH { Light SNAP_ROCKET_X4 }
+}
+
+object MosquitoZapTrail3
+{
+ 	frame MSBLI { Light SNAP_ROCKET_X1	}
+	frame MSBLJ { Light SNAP_ROCKET_X2 }
+	frame MSBLK { Light SNAP_ROCKET_X3 }
+	frame MSBLL { Light SNAP_ROCKET_X4 }
+}
+
+object WormMissile
+{
+	frame WRMSA { Light SNAP_BBCHARGE_X1	}
+	frame WRMSB { Light SNAP_BBCHARGE_X1 }
+	frame WRMSC { Light SNAP_BBCHARGE_X1	}
+	frame WRMSD { Light SNAP_BBCHARGE_X1 }
+
+	frame WRMSG { Light SNAP_BBCHARGE_X1	}
+	frame WRMSH { Light SNAP_BBCHARGE_X1 }
+	frame WRMSI { Light SNAP_BBCHARGE_X1	}
+	frame WRMSJ { Light SNAP_BBCHARGE_X1 }
+
+	}
+
+
+pointlight SNAP_BOOMERRANG
+{
+    color 0.8 1.0 1.0
+    size 84
+	attenuate 1
+}
+
+flickerlight SNAP_BOOMERRANG_X1
+{
+    color 1.0 0.7 0.2
+    size 96
+    secondarySize 108
+    chance 0.3
+	attenuate 1
+}
+
+object SnapBoomerangShot
+{
+ 	frame RANGA { Light SNAP_BOOMERRANG	}
+	frame RANGB { Light SNAP_BOOMERRANG_X1 }
+	frame RANGC { Light SNAP_BOOMERRANG }
+	frame RANGD { Light SNAP_BOOMERRANG_X1 }
+	frame RANGF { Light SNAP_BOOMERRANG }
+	frame RANGE { Light SNAP_BOOMERRANG_X1 }
+}
