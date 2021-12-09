@@ -302,7 +302,7 @@ object SnapMirrorShot
 	
 // Good 'luck' with your game!
 
-pointlight SNAP_BBCHARGE_WIMP
+pointlight SNAP_BBCHARGE_SMOL
 {
 	color 0.8 1.0 1.0
 	size 40
@@ -333,8 +333,8 @@ pointlight SNAP_BBCHARGE_X3
 
 object SnapChargeShotWimp
 {
- 	frame CRGBA { Light SNAP_BBCHARGE_WIMP	}
-	frame CRGBB { Light SNAP_BBCHARGE_WIMP }
+ 	frame CRGBA { Light SNAP_BBCHARGE_SMOL	}
+	frame CRGBB { Light SNAP_BBCHARGE_SMOL }
 
 	}
 
