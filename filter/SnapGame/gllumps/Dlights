@@ -300,7 +300,7 @@ object SnapMirrorShot
 	frame MBULB { Light SNAP_PURPLE_X1 }
 	}
 	
-// Hi BB-1, thought I would add a reference to you since you're nice, plus you play New Super Lucky's tale :)
+// Good 'luck' with your game!
 
 pointlight SNAP_BBCHARGE_WIMP
 {
