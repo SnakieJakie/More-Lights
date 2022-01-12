@@ -1,13 +1,17 @@
+(Jakie License)
+
 More Lights
 
-© 2021 SnakieJakie
+© 2022 Jakie
 
-LICENSE:
+LICENSE
 
 You MAY use, copy, modify, merge, publish, distribute, and/or sublicense this work - HOWEVER:
 
-You may not sell this work
+- You may not sell this work in any way.
 
-Your work must comply with id Software's original licenses (i.e. they must only work on the game from which they originated)
+- Your work must comply with the original license provided by the original developer.
 
-All derivative works must credit the original authors (SnakieJakie, Zandronum Team)
+- You may not claim that you made this work.
+
+- All derivative works must credit the original authors.
