@@ -30,10 +30,8 @@ The Temple of the Oracle (Strife)
 ![](https://i.imgur.com/L9DQf5M.png)
 [Snap The Sentinel](https://snapgame.net/)
 
-![](https://i.imgur.com/wE9aVsa.jpg)
-[Sigil](https://romero.com/sigil) Level 9
+![](https://i.imgur.com/NRiE7lx.png)
+TNT Evilution
 
 ![](https://i.imgur.com/pncL0cp.png)
 [Blasphemer](https://github.com/Blasphemer/blasphemer)
-
-(My GLDEFS code was actually added to the main repository!)
