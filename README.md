@@ -3,16 +3,16 @@
 More Lights is a mod for ZDoom hardware accelerated ports that adds more dynamic lighting effects to most IWads and mods.
 
 # Download links
-To download from Github, simply head to the releases tab and select the latest version. Then downlaod the zip.
+To download from Github, simply head to the releases tab and select the latest version. Then download the zip.
 
-More Lights can also be found on the [ZDoom Forums,](https://forum.zdoom.org/viewtopic.php?f=46&t=72206) both the Github and ZDoom forums pages are updated instantly when new updates are released. 
+More Lights can also be found on the [ZDoom Forums,](https://forum.zdoom.org/viewtopic.php?f=46&t=72206) both the Github and ZDoom Forums pages are updated instantly when new updates are released. 
 
 There's also a page on [ModDB](https://www.moddb.com/mods/more-lights), although this isn't recommened as it takes me a long time to update More Lights there. 
 
-[GamimgRoom.net](https://www.gamingroom.net/games/patches-addons-editores/more-lights/?download) also hosts More Lights on the their website.
+[GamimgRoom.net](https://www.gamingroom.net/games/patches-addons-editores/more-lights/?download) also hosts More Lights on their website.
 
 # License
-More Lights' [license](https://github.com/SnakieJakie/More-Lights/blob/main/license.txt) under a permissive license. Please visit the license file for more information.
+More Lights' [license](https://github.com/SnakieJakie/More-Lights/blob/main/license.txt) is a permissive license. Please visit the license file for more information.
 
 # Requests
 Do you have a mod that you want to see added to More Lights? If so, then please contact me on the ZDoom forums, Discord or Twitter.
