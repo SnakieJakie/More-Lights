@@ -1,24 +1,53 @@
 ![More Lights](https://i.imgur.com/CVyssJR.png)
 
-More Lights is a mod for ZDoom hardware accelerated ports that adds more dynamic lighting effects to most IWads and mods.
+Mod for GZDoom-like ports that adds glowing flats and dynamic lighting effects to all of the supported IWWADs, as well as a huge amount of mods.
 
 # Download links
-To download from Github, simply head to the releases tab and select the latest version. Then download the zip.
+To download from Github, head to the releases tab and select the latest version. Then download the zip or PK3.
 
-More Lights can also be found on the [ZDoom Forums,](https://forum.zdoom.org/viewtopic.php?f=46&t=72206) both the Github and ZDoom Forums pages are updated instantly when new updates are released. 
+More Lights can also be found on the [ZDoom Forums.](https://forum.zdoom.org/viewtopic.php?f=46&t=72206)
 
-[GamimgRoom.net](https://www.gamingroom.net/games/patches-addons-editores/more-lights/?download) also hosts More Lights on their website.
+[GamimgRoom.net](https://www.gamingroom.net/games/patches-addons-editores/more-lights/?download) also provides an download link for More Lights on their website.
 
-# License
-More Lights' [license](https://github.com/SnakieJakie/More-Lights/blob/main/license.txt) is a permissive license. Please visit the license file for more information.
+# Licensed under an permissive license. 
+No need to credit me at all. Feel free to use in your projects!
 
 # Requests
-Do you have a mod that you want to see added to More Lights? If so, then please contact me on the ZDoom forums, Discord or Twitter.
+Create an pull request here or message me if you want an map pack to be supported!
+
+# Tested with the following mods and games
+GF: Glowing flats, ODL: Overhauled Dynamic Lighting 
+### Games
+- Doom (ODL, GF)
+- Heretic (ODL, GF)
+- Hexen (ODL, GF)
+- Strife because that game deserves some love (ODL, GF)
+- Harmony (GF)
+- FreeDoom (GF)
+- Hacx (GF)
+- Snap the Sentinel (ODL, GF)
+- The Adventures Of Square (GF)
+- Chex Quest (ODL, GF)
+- Project Osiris: Alien Breed 3D for GZDoom (Thanks ShockWave!) (GF)
+- Rise Of The Wool Ball (GF, ODL)
+- Shrine 1 and 2 (GF)
+- Daytime Drama (GF)
+
+### Mods
+- SkullTag's stock maps
+- Back to Saturn X
+- Sunlust
+- Oblige and the ObAddon map generator
+- OTEX texture pack
+- Ancient Aliens
+- Beautiful Doom
+- Jazz Jackrabbit Doom
+- Struggle - Antaresian Legacy
 
 # Screenshots
 ## Glowing Flats
 ![](https://i.imgur.com/S852xXH.png)
-The Temple of the Oracle (Strife)
+Strife
 
 ![](https://i.imgur.com/uLSUqVJ.png)
 [Ancient Aliens](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/aaliens)
@@ -33,3 +62,6 @@ TNT Evilution
 
 ![](https://i.imgur.com/pncL0cp.png)
 [Blasphemer](https://github.com/Blasphemer/blasphemer)
+
+
+
