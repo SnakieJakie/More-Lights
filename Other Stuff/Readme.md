@@ -9,6 +9,7 @@ Supports any map that only has 120 sector tags or less.
 
 More Lights Bisexual was a joke mod I made when someone in a Discord call brought up Bisexual lighting for More Lights. After making a small map that had it via Doom Builder's sector lighting, I decided to make a kinda-universal version for my speed modding challenge back in 2021.
 Only supports Doom and Doom 2. 
+
 [Download](https://github.com/SnakieJakie/More-Lights/raw/main/Other%20Stuff/MoreLights_Bisexual.wad)
 
 Blah blah don't expect these to get updated 
