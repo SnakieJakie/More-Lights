@@ -5,9 +5,9 @@ Mod for GZDoom-like ports that adds glowing flats and dynamic lighting effects t
 For shitpost versions, see [this.](https://github.com/SnakieJakie/More-Lights/tree/main/Other%20Stuff)
 
 # Download links
-To download from Github, head to the releases tab or click [this](https://github.com/SnakieJakie/More-Lights/releases) to go to the latest verison
+To download from Github, head to the releases tab or click [this](https://github.com/SnakieJakie/More-Lights/releases) to go to the latest verison.
 
-More Lights also is available on the [ZDoom Forums.](https://forum.zdoom.org/viewtopic.php?f=46&t=72206)
+More Lights is also available on the [ZDoom Forums.](https://forum.zdoom.org/viewtopic.php?f=46&t=72206)
 
 [GamimgRoom.net](https://www.gamingroom.net/games/patches-addons-editores/more-lights/?download) also provides an download link for More Lights on their website. (Although it hasn't been updated.)
 
