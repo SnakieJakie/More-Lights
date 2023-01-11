@@ -2,6 +2,8 @@
 
 Mod for GZDoom-like ports that adds glowing flats and dynamic lighting effects to all of the supported IWWADs, as well as a huge amount of mods.
 
+For shitpost versions, see [this.](https://github.com/SnakieJakie/More-Lights/tree/main/Other%20Stuff)
+
 # Download links
 To download from Github, head to the releases tab and select the latest version. Then download the zip or PK3.
 
