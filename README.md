@@ -11,7 +11,7 @@ More Lights can also be found on the [ZDoom Forums.](https://forum.zdoom.org/vie
 
 [GamimgRoom.net](https://www.gamingroom.net/games/patches-addons-editores/more-lights/?download) also provides an download link for More Lights on their website.
 
-# Licensed under an permissive license. 
+# Free to use in any project
 No need to credit me at all. Feel free to use in your projects!
 
 # Requests
