@@ -1,5 +1,8 @@
 ![More Lights](https://i.imgur.com/CVyssJR.png)
 
+# NOTE
+As of August 18th, 2023, More Lights' development has been discontinued. Anyone is free to download the last version and build off of my work, even without credit. Thank you for supporting this project. 
+
 Mod for GZDoom-like ports that adds glowing flats and dynamic lighting effects to all of the supported IWWADs, as well as a huge amount of mods.
 
 For shitpost versions, see [this.](https://github.com/SnakieJakie/More-Lights/tree/main/Other%20Stuff)
@@ -44,6 +47,20 @@ ODL: Overhauled Dynamic Lighting
 - Jazz Jackrabbit Doom
 - Struggle - Antaresian Legacy
 
+### Doom Texture Packs
+- 5th Episode Texture Pack
+- Gothic Texture Pack
+- Black and Green Texture Pack
+- Cage Texture Pack
+- Cage Texture Pack 2
+- Doom Potpourri TEXs
+- IDTex
+- nb_flats
+- drtex
+- Dusk's Texture Pack
+- NB_RECOL
+- nb5texd2
+
 # Screenshots
 ## Glowing Flats
 ![](https://i.imgur.com/S852xXH.png)
@@ -63,6 +80,3 @@ TNT Evilution
 ![](https://i.imgur.com/pncL0cp.png)
 [Blasphemer](https://github.com/Blasphemer/blasphemer)
 
-# Other stuff
-## Request
-If you have a request for a mod or game to be supported, send me a DM or pull request here and I'll be sure to add support for it.
