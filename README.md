@@ -3,7 +3,7 @@
 # NOTE
 As of August 18th, 2023, More Lights' development has been discontinued. Anyone is free to download the last version and build off of my work, even without credit. Thank you for supporting this project. 
 
-#About
+# About
 More Lights is a mod for the GZDoom and Zandronum source ports that adds glowing flats and dynamic lighting effects to all of the supported IWWADs, as well as a huge amount of mods.
 
 For shitpost versions, see [this.](https://github.com/SnakieJakie/More-Lights/tree/main/Other%20Stuff)
