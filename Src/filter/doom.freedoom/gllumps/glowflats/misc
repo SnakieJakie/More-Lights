@@ -1,0 +1,42 @@
+// Mods that are too small to be in their own file. ;)
+	
+  Glow
+  {
+  Flats
+  {
+  
+//Jazz Jackrabbit Doom
+  GOLDL1
+  GOLDL2
+  GOLDL3
+  GOLDL4
+  
+//Beautiful Doom
+  BDT_WFL
+  BDT_BFL
+  BDT_LFL
+  BDT_AFL
+  BDT_SFL1
+  BDT_SFL2
+  
+//  Rudy 2
+FLAT29
+
+
+//   STRG
+ANTA3_7
+  FLATLIT4
+ANTA3_1
+ANTA3_2
+ANTA3_3
+ANTA3_4
+ANTA3_5
+ANTA3_6
+ANTA2_9
+ANTA2_8
+FLATLITF
+
+
+
+  }
+}

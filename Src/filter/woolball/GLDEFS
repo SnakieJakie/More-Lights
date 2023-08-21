@@ -1,0 +1,212 @@
+
+
+//===============
+// Rise Of The Wool Ball Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+  
+   WATER2
+   WATER3
+   WATERLAV
+   FIGHTSKY
+   CATLIT
+   CATLIT2
+   CATLITF
+   CATLITF2
+   LAVAWF
+   
+   
+  }
+}
+
+// Dynamic lighting
+flickerlight WOOLBALLROCKET_X1
+{
+    color 1.0 0.7 0.0
+    size 64
+    secondarySize 72
+    chance 0.3
+}
+
+flickerlight WOOLBALLROCKET_X2
+{
+    color 0.5 0.1 0.0
+    size 80
+    secondarySize 88
+    chance 0.3
+}
+
+flickerlight WOOLBALLROCKET_X3
+{
+    color 0.3 0.0 0.0
+    size 96
+    secondarySize 104
+    chance 0.3
+}
+
+object BoomBarrel
+{
+
+    frame TFOGC { light WOOLBALLROCKET_X1 }
+    frame TFOGD { light WOOLBALLROCKET_X2 }
+    frame TFOGE { light WOOLBALLROCKET_X3 }
+}
+
+object RocketNew
+{
+
+    frame GURKB { light WOOLBALLROCKET_X1 }
+    frame GURKC { light WOOLBALLROCKET_X2 }
+    frame GURKD { light WOOLBALLROCKET_X3 }
+}
+
+object WallBoom
+{
+
+    frame FIREB { light WOOLBALLROCKET_X1 }
+    frame FIREC { light WOOLBALLROCKET_X2 }
+    frame FIRED { light WOOLBALLROCKET_X3 }
+ frame FIREE { light WOOLBALLROCKET_X3 }
+}
+
+object SaucerCatExplosion
+{
+
+    frame TFOGC { light WOOLBALLROCKET_X1 }
+    frame TFOGD { light WOOLBALLROCKET_X2 }
+    frame TFOGE { light WOOLBALLROCKET_X3 }
+}
+
+object OfficerCatCannon
+{
+
+    frame GURKC { light WOOLBALLROCKET_X1 }
+    frame GURKD { light WOOLBALLROCKET_X2 }
+    frame GURKE { light WOOLBALLROCKET_X3 }
+}
+object BoomBarrelCorpse
+{
+
+    frame TFOGC { light WOOLBALLROCKET_X1 }
+    frame TFOGD { light WOOLBALLROCKET_X2 }
+    frame TFOGE { light WOOLBALLROCKET_X3 }
+}
+
+object DropBarrel
+{
+
+    frame TFOGC { light WOOLBALLROCKET_X1 }
+    frame TFOGD { light WOOLBALLROCKET_X2 }
+    frame TFOGE { light WOOLBALLROCKET_X3 }
+}
+
+object ShootyBarrel
+{
+
+    frame GURKC { light WOOLBALLROCKET_X1 }
+    frame GURKD { light WOOLBALLROCKET_X2 }
+    frame GURKE { light WOOLBALLROCKET_X3 }
+}
+
+
+
+// Bullet lights
+
+flickerlight2 WOOLBALLZOMBIEATK
+{
+    color 1.0 1.0 0.5
+    size 48
+    secondarySize 56
+    interval 1
+    offset 0 40 0
+}
+
+object ShotgunCat
+{
+    frame SPOSF { light WOOLBALLZOMBIEATK }
+}
+
+object ChaingunCat
+{
+    frame CPOSF { light WOOLBALLZOMBIEATK }
+}
+
+object ChaingunCatBig
+{
+    frame CHABF { light WOOLBALLZOMBIEATK }
+}
+
+object ShotgunCatFloat
+{
+    frame FLOAD { light WOOLBALLZOMBIEATK }
+}
+
+object ShotgunCatPirate
+{
+    frame PPIRF { light WOOLBALLZOMBIEATK }
+}
+
+object ChaingunCatBigCurl
+{
+    frame PUMBF { light WOOLBALLZOMBIEATK }
+}
+
+object ChaingunCatBigPirate
+{
+    frame PHABF { light WOOLBALLZOMBIEATK }
+}
+
+
+object MLHero
+{
+    frame DNSRE { light WOOLBALLZOMBIEATK }
+}
+
+// Wizards
+pointlight WOOLBALLWIZARDBALL1
+{
+    color 0.0 1.0 0.0
+    size 50
+}
+
+pointlight WOOLBALLWIZARDBALL2
+{
+    color 0.2 0.6 0.2
+    size 50
+}
+object WizardCatBall
+{
+    frame BAL1A { light WOOLBALLWIZARDBALL1 }
+frame BAL1B { light WOOLBALLWIZARDBALL1 }
+frame BAL1C { light WOOLBALLWIZARDBALL2 }
+frame BAL1D { light WOOLBALLWIZARDBALL2 }
+frame BAL1E { light WOOLBALLWIZARDBALL2 }
+}
+
+flickerlight WOOLBALLARACHPLAS_X1
+{
+    color 1.0 0.2 0.2
+    size 108
+    secondarySize 120
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight WOOLBALLARACHPLAS_X2
+{
+    color 1.0 0.6 0.6
+    size 132
+    secondarySize 144
+    chance 0.3
+	attenuate 1
+}
+
+object SpiderCatLaser
+{
+    frame APLSA { light WOOLBALLARACHPLAS_X1 }
+frame APLSB { light WOOLBALLARACHPLAS_X2 }
+}

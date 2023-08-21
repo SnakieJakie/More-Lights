@@ -1,0 +1,20 @@
+
+// (More Lights made by Jakie)
+//===============
+// Shrine Glowing Flats
+// I like the image you used for the FSKY1 texture, Mr Scumhead...
+//===============
+
+Glow
+{
+  Flats
+  {
+WATER
+POISON
+POISONWA
+CRYSTAL
+  }
+}
+
+
+

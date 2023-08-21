@@ -1,0 +1,33 @@
+// (More Lights made by Jakie)
+//===============
+// Project Osiris: Alien Breed 3D Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   WATER1
+   WATER2
+   WATER3
+   WATER4
+   WATER5
+   WATER6
+   WATER7
+   WATER8
+   AFLAT14
+   AFLAT9
+   BLUGRY2
+   BLUSTN1
+   TELEEXIT
+   TELEPOR1
+   TELEPOR2
+   WATERCLR
+   WATERMUK
+   WATERSLM
+   TELEPOR3
+   RED1
+   RED2
+   RED4b
+  }
+}

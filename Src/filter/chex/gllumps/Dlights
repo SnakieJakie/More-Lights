@@ -1,0 +1,331 @@
+// ------------------------------------------------------
+// ------------------ CHEX GAME LIGHTS ------------------
+// ------------------------------------------------------
+// (More Lights made by Jakie)
+// ------------------
+// -- CHEX Weapons --
+// ------------------
+
+// Bullet puff
+flickerlight BPUFF1
+{
+     color 0.6 0.2 0.2	
+    size 9
+    secondarySize 12
+    chance 0.8
+	attenuate 1
+}
+
+flickerlight BPUFF2
+{
+     color 1.0 0.2 0.2
+    size 4
+    secondarySize 6
+    chance 0.8
+	attenuate 1
+}
+
+object BulletPuff
+{
+    frame PUFFA { light BPUFF1 }
+    frame PUFFB { light BPUFF2 }
+}
+
+// Rocket
+pointlight PropulsorMissile
+{
+     color 1.0 0.2 0.2
+    size 84
+	attenuate 1
+}
+
+flickerlight PropulsorMissile_X1
+{
+    color 1.0 0.2 0.2
+    size 96
+    secondarySize 108
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight PropulsorMissile_X2
+{
+     color 1.0 0.2 0.2
+    size 120
+    secondarySize 132
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight PropulsorMissile_X3
+{
+     color 1.0 0.2 0.2
+    size 144
+    secondarySize 156
+    chance 0.3
+	attenuate 1
+}
+
+object PropulsorMissile
+{
+    frame MISLA { light PropulsorMissile}
+
+    frame MISLB { light PropulsorMissile_X1}
+    frame MISLC { light PropulsorMissile_X2}
+    frame MISLD { light PropulsorMissile_X3}
+}
+
+// Chex quest 3's PropulsorMissile
+
+object PropulsorMissileV3
+{
+    frame MISLA { light PropulsorMissile}
+
+    frame MISLB { light PropulsorMissile_X1}
+    frame MISLC { light PropulsorMissile_X2}
+    frame MISLD { light PropulsorMissile_X3}
+}
+
+// Plasma
+pointlight PhaseZorchMissile
+{
+    color 1.0 0.2 0.2
+    size 56
+	attenuate 1
+}
+
+flickerlight PLASMA_X1
+{
+    color 1.0 0.2 0.2
+    size 56
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA_X2
+{
+    color 0.6 0.2 0.2
+    size 80
+    secondarySize 132
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA_X3
+{
+    color 0.4 0.1 0.1
+    size 88
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA_X4
+{
+    color 0.2 0.0 0.0
+    size 96
+    secondarySize 24
+    chance 0.4
+	attenuate 1
+}
+
+object PhaseZorchMissile
+{
+    frame PLSSA { light PhaseZorchMissile }
+    frame PLSSB { light PhaseZorchMissile }
+
+    frame PLSEA { light PLASMA_X1 }
+    frame PLSEB { light PLASMA_X2 }
+    frame PLSEC { light PLASMA_X2 }
+    frame PLSED { light PLASMA_X3 }
+    frame PLSEE { light PLASMA_X4 }
+}
+
+// Beta Plasma 1
+pointlight PLASMABALL1
+{
+    color 1.0 0.7 0.7
+    size 84
+	attenuate 1
+}
+
+flickerlight PLASMA1_X1
+{
+    color 1.0 0.7 0.7
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X2
+{
+    color 1.0 0.7 0.7
+    size 120
+    secondarySize 132
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X3
+{
+    color 1.0 0.7 0.7
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA1_X4
+{
+    color 1.0 0.7 0.7
+    size 12
+    secondarySize 24
+    chance 0.4
+	attenuate 1
+}
+
+object PlasmaBall1
+{
+    frame PLS1A { light PLASMABALL1 }
+    frame PLS1B { light PLASMABALL1 }
+
+    frame PLS1C { light PLASMA1_X1 }
+    frame PLS1D { light PLASMA1_X2 }
+    frame PLS1E { light PLASMA1_X2 }
+    frame PLS1F { light PLASMA1_X3 }
+    frame PLS1G { light PLASMA1_X4 }
+}
+
+// Beta Plasma 2
+pointlight PLASMABALL2
+{
+    color 1.0 0.1 0.0
+    size 84
+	attenuate 1
+}
+
+flickerlight PLASMA2_X1
+{
+    color 0.9 0.2 0.2
+    size 96
+    secondarySize 108
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA2_X2
+{
+    color 0.6 0.2 0.2
+    size 120
+    secondarySize 132
+    chance 0.4
+	attenuate 1
+}
+
+flickerlight PLASMA2_X3
+{
+    color 0.2 0.0 0.0
+    size 12
+    secondarySize 24
+    chance 0.4
+	attenuate 1
+}
+
+object PlasmaBall2
+{
+    frame PLS2A { light PLASMABALL2 }
+    frame PLS2B { light PLASMABALL2 }
+
+    frame PLS2C { light PLASMA2_X1 }
+    frame PLS2D { light PLASMA2_X2 }
+    frame PLS2E { light PLASMA2_X3 }
+}
+
+// BFG
+pointlight LAZBall
+{
+    color 1.0 0.7 0.7
+    size 120
+	attenuate 1
+}
+
+flickerlight BFGBALL_X1
+{
+    color 1.0 0.7 0.7
+    size 120
+    secondarySize 132
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight BFGBALL_X2
+{
+    color 1.0 0.7 0.7
+    size 156
+    secondarySize 168
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight BFGBALL_X3
+{
+    color 1.0 0.7 0.7
+    size 180
+    secondarySize 192
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight BFGBALL_X4
+{
+   color 1.0 0.7 0.7
+    size 84
+    secondarySize 96
+    chance 0.3
+	attenuate 1
+}
+
+flickerlight BFGBALL_X5
+{
+    color 1.0 0.7 0.7
+    size 72
+    secondarySize 84
+    chance 0.3
+	attenuate 1
+}
+
+object LAZBall
+{
+    frame BFS1A { light LAZBall }
+    frame BFS1B { light LAZBall }
+
+    frame BFE1A { light BFGBALL_X1 }
+    frame BFE1B { light BFGBALL_X2 }
+    frame BFE1C { light BFGBALL_X3 }
+    frame BFE1D { light BFGBALL_X1 }
+    frame BFE1E { light BFGBALL_X4 }
+    frame BFE1F { light BFGBALL_X5 }
+}
+
+
+object BFGExtra
+{
+    frame BFE2A { light BFGBALL    }
+    frame BFE2B { light BFGBALL_X1 }
+    frame BFE2C { light BFGBALL_X4 }
+    frame BFE2D { light BFGBALL_X5 }
+}
+
+flickerlight2 CHEXATTACK
+{
+    color 1.0 0.1 0.1
+    size 84
+	attenuate 1
+}
+
+object ChexPlayer
+{
+    frame PLAYF { light CHEXATTACK }
+}

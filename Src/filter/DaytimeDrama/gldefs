@@ -1,0 +1,30 @@
+// (More Lights made by Jakie)
+//===============
+// Daytime Drama Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   WATER1
+   WATER2
+   LAVA1
+   LAVA2
+   NUKE1
+   NUKE2
+   NUKE3
+   LAVAF_B
+   LAVAF_A
+   LAVAD_A
+   LAVAD_B
+   LITE00
+   LITE10
+   
+
+
+
+  }
+}
+
+

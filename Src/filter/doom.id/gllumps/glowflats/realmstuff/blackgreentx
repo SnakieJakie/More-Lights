@@ -1,0 +1,16 @@
+// BlackGreenTechTexturesPack.wad by Agaures
+Glow
+{
+  Flats
+  {
+  B_LITE01
+  B_LITE02
+  B_LITE03
+  B_LITE04
+  B_BSFL01
+  B_BSFL02
+  B_JUMPAD // bouncepad
+  B_TECH01
+  }
+ }
+ 

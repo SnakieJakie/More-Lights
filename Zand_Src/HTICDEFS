@@ -1,0 +1,2 @@
+#include heretic/gllumps/Dlights
+#include heretic/gllumps/Gflats

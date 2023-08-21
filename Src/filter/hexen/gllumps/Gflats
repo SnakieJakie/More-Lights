@@ -1,0 +1,24 @@
+// (More Lights made by Jakie)
+
+//===============
+// HeXen Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   F_033
+   X_001
+   X_002
+   X_003
+   X_004
+   X_005
+   X_006
+   X_007
+   X_008  
+   X_009
+   X_010
+   X_011
+  }
+}

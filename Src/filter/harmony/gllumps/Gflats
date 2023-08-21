@@ -1,0 +1,41 @@
+
+// (More Lights made by Jakie)
+//===============
+// Harmony Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   FLOOR5_3
+   FLOOR6_1
+   TLITE6_6
+   DEM1_2
+   NUKAGE1
+   NUKAGE2
+   NUKAGE3
+   FWATER1
+   FWATER2
+   FWATER3
+   FWATER4
+   BLOOD1
+   BLOOD2
+   BLOOD3
+   SLIME01
+   SLIME02
+   SLIME03
+   SLIME04
+   SLIME05
+   SLIME06
+   SLIME07
+   SLIME08
+   SLIME09
+   SLIME10
+   SLIME11
+   SLIME12
+   SLIME13
+   SLIME14
+   
+  }
+}

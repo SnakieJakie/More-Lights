@@ -1,0 +1,36 @@
+// (More Lights made by Jakie)
+
+//===============
+// HacX Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+  FLOOR0_3
+  FLOOR4_5
+  FLOOR5_1
+  FWATER1
+  FWATER2
+  FWATER3
+  FWATER4
+  LAVA1
+  LAVA2
+  LAVA3
+  LAVA4
+  SLIME01
+  SLIME02
+  SLIME03
+  SLIME04
+  SLIME05
+  SLIME06
+  SLIME07
+  SLIME08
+  SLIME09
+  SLIME10
+  SLIME11
+  SLIME12
+ 
+  }
+}

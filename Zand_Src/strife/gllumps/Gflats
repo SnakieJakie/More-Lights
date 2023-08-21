@@ -1,0 +1,41 @@
+
+// (More Lights made by Jakie)
+//===============
+// Strife Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   F_RDALN1
+   F_RDALN2
+   F_RDALN3
+   F_RDALN4
+   F_SCANR5
+   F_SCANR6
+   F_SCANR7
+   F_SCANR8
+   F_SCANR1
+   F_SCANR2
+   F_SCANR3
+   F_SCANR4
+   F_TELE01
+   F_TELE02
+   F_TELE1
+   F_TELE2
+   F_HWATR1
+   F_HWATR2
+   F_HWATR3
+   P_VWATR1
+   F_VWATR2
+   F_VWATR3
+   F_PWATR1
+   F_PWATR2
+   F_PWATR3
+   F_TKSCRN
+   F_WATR01
+   F_WATR02
+   F_WATR03
+  }
+}

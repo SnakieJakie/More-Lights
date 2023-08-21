@@ -1,0 +1,24 @@
+// Lights
+#include doom/gllumps/Dlights
+
+// Glowing flat shit
+#include doom/gllumps/glowflats/misc
+#include doom/gllumps/glowflats/sunlust
+#include doom/gllumps/glowflats/aaliens
+#include doom/gllumps/glowflats/skulltag
+#include doom/gllumps/glowflats/doom
+#include doom/gllumps/glowflats/eviternity
+#include doom/gllumps/glowflats/btsx
+#include doom/gllumps/glowflats/obaddon
+
+// Realm667 texture packs
+#include doom/gllumps/glowflats/realmstuff/gothictx
+#include doom/gllumps/glowflats/realmstuff/blackgreentx
+#include doom/gllumps/glowflats/realmstuff/cagetex
+#include doom/gllumps/glowflats/realmstuff/potoiurri
+#include doom/gllumps/glowflats/realmstuff/idtex
+#include doom/gllumps/glowflats/realmstuff/nbflats
+#include doom/gllumps/glowflats/realmstuff/drtex
+#include doom/gllumps/glowflats/realmstuff/dtexpak
+#include doom/gllumps/glowflats/realmstuff/nbrecolor
+#include doom/gllumps/glowflats/realmstuff/nb5texd2

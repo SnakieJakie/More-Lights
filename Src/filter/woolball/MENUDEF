@@ -1,0 +1,11 @@
+AddOptionMenu "OptionsMenu"
+{   
+	Submenu "More Lights Rise Of The Wool Ball Options", "MoreLightsWoolBallOptions"
+}
+
+OptionMenu "MoreLightsWoolBallOptions"
+{
+Title "More Lights Options"
+Statictext "Requires a game restart" 
+	Option "Darker Rise Of The Wool Ball sector lighting",					"ml_ogwoolballlighting", "OnOff"
+}

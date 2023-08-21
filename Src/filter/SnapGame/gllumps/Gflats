@@ -1,0 +1,29 @@
+
+// (More Lights made by Jakie)
+//===============
+// Snap the Sentinel Glowing Flats
+//===============
+
+Glow
+{
+  Flats
+  {
+   TXMUCK00
+   TELE1
+   VOLAVA01
+   VOLAVA02
+   VOLAVA03
+   VOLAVA04
+   VOLAVA05
+   VOLAVA06
+   VOLAVA07
+   VOLAVA08
+   VOLAVA09
+   VOLAVA10
+   VOLAVA11
+   VOLAVA12
+   VOLAVA13
+   VOLAVA14
+   VOLAVA15
+  }
+}
